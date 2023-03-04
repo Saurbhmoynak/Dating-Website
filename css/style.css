@@ -165,7 +165,7 @@ section{
   position: relative;
   height: 100vh;
   /* background-image:linear-gradient(60deg,rgba(31, 196, 174, 0.9) 50%,transparent 50%), url(../img/Blue-Landscape3.png);; */
-  background-image: linear-gradient(rgba(23, 10, 20, 0.129), rgba(23, 10, 20, 0.229)),url(../img/background-main.png);
+  background-image: linear-gradient(rgba(23, 10, 20, 0.129), rgba(23, 10, 20, 0.229)),url(../img/background-main2.png);
   background-size: cover;
   background-position: center;
   /* text-align: left; */
