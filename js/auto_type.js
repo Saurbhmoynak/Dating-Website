@@ -1,7 +1,7 @@
 var options = {
-  strings: ["Love at first chat", "100% real 0% catfish"],
-  typeSpeed: 70,
-  backSpeed: 30,
+  strings: ["LOVE AT FIRST CHAT", "100% REAL 0% CATFISH"],
+  typeSpeed: 60,
+  backSpeed: 40,
   loop: true,
 };
 
