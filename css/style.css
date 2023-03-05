@@ -5,9 +5,9 @@
 /* body {
   font-family: "Readex Pro", sans-serif;
   /* height: 100vh; */
-  
 
-*{
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background: white;
   color: black;
 }
@@ -69,7 +69,7 @@ a {
   position: fixed;
   /* background-color: #e94361; */
 
-  background-image: linear-gradient(90deg,#fd267d,#ff7854);
+  background-image: linear-gradient(90deg, #fd267d, #ff7854);
   z-index: 1000;
 }
 
@@ -115,6 +115,7 @@ a.logo {
   background: black;
   text-decoration: none;
 }
+
 /* ----- hamburger menu ----- */
 .menu-hamburger {
   display: none;
@@ -164,13 +165,13 @@ a.logo {
 
 /*-------------- section - common for all ------------*/
 
-section{
-  padding: 60px 8%; 
+section {
+  padding: 60px 8%;
 }
 
 /*-------------- section - common for all ------------*/
 
-.home{
+.home {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -179,12 +180,12 @@ section{
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
 }
 
-.home-text{
-  width:50%;
+.home-text {
+  width: 50%;
 }
 
 .home h1 {
@@ -202,7 +203,7 @@ section{
   padding: 10px;
 }
 
-.home p{
+.home p {
   color: rgb(255, 255, 255);
   font-size: 15px;
   line-height: 1.8;
@@ -229,16 +230,16 @@ section{
 
 /* ----- Special service ----- */
 
-.special{
+.special {
   background: #ffffff;
 }
 
-.special-div{
+.special-div {
   margin: auto;
   margin-bottom: 20px;
 }
 
-.heading{
+.heading {
   font-size: 2rem;
   /* color: rgb(106, 13, 73); */
   color: #e94361;
@@ -248,7 +249,7 @@ section{
   text-transform: uppercase;
 }
 
-.sub-heading{
+.sub-heading {
   /* color: rgb(106, 13, 73); */
   font-size: 1rem;
   color: rgb(28, 27, 28);
@@ -256,23 +257,23 @@ section{
   margin: 10px 50px;
 }
 
-.special-content{
+.special-content {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap:2rem; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
-.special-box{
+.special-box {
   display: flex;
   flex-direction: column;
-  align-items:center;
-  text-align:center;
+  align-items: center;
+  text-align: center;
   border-radius: 0.5rem;
   transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.special-box a{
+.special-box a {
   font-size: 1.3rem;
   font-weight: 600;
   margin: 0.5rem 0;
@@ -281,14 +282,14 @@ section{
   color: #e94361;
 }
 
-.special-box p{
+.special-box p {
   font-size: 0.9rem;
   margin-bottom: auto;
   width: 70%;
   color: rgb(41, 37, 40);
 }
 
-.special-img{
+.special-img {
   width: 10rem;
   object-fit: cover;
   object-position: center;
@@ -297,153 +298,166 @@ section{
 /* ----------- testimonials ------------*/
 
 
-.testimonials{
+.testimonials {
   /* background-color: #ffe2e2; */
-  background-image: linear-gradient(90deg,#fd267d,#ff7854);
+  background-image: linear-gradient(90deg, #fd267d, #ff7854);
 }
 
-.testimonials .heading{
+.testimonials .heading {
   color: #ffffff;
   font-size: 2rem;
 }
 
-.testimonials .sub-heading{
+.testimonials .sub-heading {
   color: #ededed;
   font-size: 1rem;
 }
 
-.slide-container{
+.slide-container {
   max-width: 1150px;
   width: 100%;
   padding: 40px 0;
 }
-.slide-content{
+
+.slide-content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 0px 10px;
 }
 
-.card{
+.card {
   background-color: #f9f9f9;
   box-shadow: 0 0 30px rgba(160, 160, 160, 0.18);
 }
-.container{
+
+.container {
   position: relative;
-  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-.slide-img{
+
+.slide-img {
   width: 100%;
   display: block;
   filter: brightness(80%);
 }
-.slide-img:hover{
+
+.slide-img:hover {
   filter: brightness(100%) saturate(150%);
   transform: scale(1.04);
   cursor: pointer;
 }
 
-.details{
+.details {
   padding: 20px 10px;
 }
-.details>h3{
+
+.details>h3 {
   color: #000000;
   font-weight: 600;
   font-size: 18px;
   margin: 10px 0 15px 0;
 }
-.details>p{
+
+.details>p {
   color: #a0a0a0;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
 }
 
-.details>a{
+.details>a {
   color: #ff4e4e;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
 }
 
-.swiper-navBtn{
+.swiper-navBtn {
   color: #ffffff;
   transition: color 0.3s ease;
 }
-.swiper-navBtn:hover{
+
+.swiper-navBtn:hover {
   color: #ffffff;
 }
+
 .swiper-navBtn::before,
-.swiper-navBtn::after{
+.swiper-navBtn::after {
   font-size: 35px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.swiper-button-next{
+
+.swiper-button-next {
   right: 0;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
   left: 0;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
   background-color: #ffffff;
   opacity: 1;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
   background-color: #ffffff;
 }
 
 
 /* ----- footer style ----- */
 
-#footer{
+#footer {
   background: rgb(243, 243, 243);
 
 }
-.footer-content{
+
+.footer-content {
   padding: 20px 0;
 }
 
-.main{
+.main {
   display: flex;
   flex-wrap: wrap;
 }
 
-.list{
+.list {
   width: 25%;
 }
 
-.list h4{
+.list h4 {
   font-size: 21px;
   color: rgb(232, 64, 64);
   margin-bottom: 30px;
   position: relative;
 }
 
-.list h4::before{
+.list h4::before {
   content: "";
   position: absolute;
   height: 2px;
   width: 60px;
-  left:0;
+  left: 0;
   bottom: -10px;
   background-color: black;
 }
 
-.list ul li:not(last-child){
+.list ul li:not(last-child) {
   margin-bottom: 16px;
 }
 
-.list ul li a{
+.list ul li a {
   color: rgb(0, 0, 0);
   font-size: 0.9rem;
   display: block;
   transition: .3s;
 }
 
-.list ul li a:hover{
+.list ul li a:hover {
   transform: translateX(5px);
 }
 
-.list .social a{
+.list .social a {
   height: 40px;
   width: 40px;
   background: #e94361;
@@ -451,29 +465,29 @@ section{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size:21px;
+  font-size: 21px;
   border-radius: 15px;
   margin-right: 5px;
   transition: .3s;
 }
 
-.list .social a:hover{
+.list .social a:hover {
   background: rgb(0, 0, 0);
   color: #e94361;
 }
 
-.end-text{
+.end-text {
   text-align: center;
   padding-top: 90px;
 }
 
-.end-text p{
+.end-text p {
   color: rgb(0, 0, 0);
   font-size: 15px;
   letter-spacing: 2px;
 }
 
-.heart-icon{
+.heart-icon {
   color: #ea2424;
 }
 
@@ -481,70 +495,23 @@ section{
 
 /* ----- responsive ----- */
 
-@media only screen and (max-width: 600px){
+/*-------------------- footer responsive---------- */
 
-  .home h1 {
-    color: white;
-  }
-
-  .home h2 {
-    color: white;
-    font-size: 15px;
-  }
-
-
-  /*---------- special service section ------------*/
-
-  .heading{
-    padding: 18px;
-  }
-  .special-content{
-    grid-template-columns: repeat(1,1fr);
-  }
-  .special-box a{
-    font-size: 1.3rem;
-  }
-  .special-box p{
-    font-size: 0.9rem;
-    padding-bottom: 8px;
+@media(max-width:1040px) {
+  .list {
     width: 50%;
-    color: rgb(41, 37, 40);
+    margin-bottom: 12px;
   }
 
-
-  /*-------------------- footer responsive---------- */
-
-  #list{
-    width: 100%;
+  .end-text {
+    padding-top: 60px;
   }
-  .end-text{
-    padding-top: 30px;
-  }
-  
-  .end-text p{
-    font-size: 10px;
-    letter-spacing: 1px;
+
+  .end-text p {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
   }
 }
-
-
-@media screen and (max-width: 768px) {
-
-  .home h1 {
-    color: white;
-    font-size: 40px;
-  }
-
-  /*-------- testimonial section ----------*/
-
-  .slide-content{
-    margin: 0 10px;
-  }
-  .swiper-navBtn{
-    display: none;
-  }
-}
-
 
 
 @media screen and (max-width: 900px) {
@@ -561,6 +528,7 @@ section{
     text-align: center;
     background-size: cover;
   }
+
   .primary-button {
     display: inline-block;
     background: white;
@@ -623,7 +591,7 @@ section{
   }
 
   .mobile-login:hover {
-    background:transparent;
+    background: transparent;
     background-color: #ffffff;
     color: rgb(255, 64, 64);
   }
@@ -631,64 +599,115 @@ section{
   .home {
     display: flex;
     flex-direction: column;
+    /* height: 60vh; */
   }
 
-  .home-text{
+  .home-text {
     margin-top: 70px;
-    width:100%;
+    width: 100%;
   }
 
-  .home p{
-    /* display: none; */
+  .home p {
     width: 70%;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
     line-height: 1.8;
-    margin:auto;
+    margin: auto;
     padding: 10px;
   }
 
-  .special-box p{
+  .special-box p {
     font-size: 0.9rem;
     padding-bottom: 8px;
     width: 60%;
     color: rgb(41, 37, 40);
   }
 
-  .heading{
+  .heading {
     font-size: 1.8rem;
   }
-  
-  .sub-heading{
+
+  .sub-heading {
     /* color: rgb(106, 13, 73); */
     font-size: 0.8rem;
   }
 
 
-  .testimonials .heading{
+  .testimonials .heading {
     font-size: 1.8rem;
   }
-  
-  .testimonials .sub-heading{
+
+  .testimonials .sub-heading {
     color: #ededed;
     font-size: 0.8rem;
   }
 
 }
 
-/*-------------------- footer responsive---------- */
 
-@media(max-width:1040px){
-  .list{
+@media screen and (max-width: 768px) {
+
+  .home h1 {
+    color: white;
+    font-size: 40px;
+  }
+
+  /*-------- testimonial section ----------*/
+
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .home h1 {
+    color: white;
+  }
+
+  .home h2 {
+    color: white;
+    font-size: 15px;
+  }
+
+
+  /*---------- special service section ------------*/
+
+  .heading {
+    padding: 18px;
+  }
+
+  .special-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .special-box a {
+    font-size: 1.3rem;
+  }
+
+  .special-box p {
+    font-size: 0.9rem;
+    padding-bottom: 8px;
     width: 50%;
-    margin-bottom: 12px;
+    color: rgb(41, 37, 40);
   }
-  .end-text{
-    padding-top: 60px;
+
+
+  /*-------------------- footer responsive---------- */
+
+  #list {
+    width: 100%;
   }
-  
-  .end-text p{
-    color: rgb(0, 0, 0);
-    font-size: 13px;
+
+  .end-text {
+    padding-top: 30px;
+  }
+
+  .end-text p {
+    font-size: 10px;
+    letter-spacing: 1px;
   }
 }
