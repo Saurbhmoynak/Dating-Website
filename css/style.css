@@ -250,6 +250,7 @@ section{
 
 .sub-heading{
   /* color: rgb(106, 13, 73); */
+  font-size: 1rem;
   color: rgb(28, 27, 28);
   text-align: center;
   margin: 10px 50px;
@@ -303,10 +304,12 @@ section{
 
 .testimonials .heading{
   color: #ffffff;
+  font-size: 2rem;
 }
 
 .testimonials .sub-heading{
   color: #ededed;
+  font-size: 1rem;
 }
 
 .slide-container{
@@ -651,6 +654,26 @@ section{
     width: 60%;
     color: rgb(41, 37, 40);
   }
+
+  .heading{
+    font-size: 1.8rem;
+  }
+  
+  .sub-heading{
+    /* color: rgb(106, 13, 73); */
+    font-size: 0.8rem;
+  }
+
+
+  .testimonials .heading{
+    font-size: 1.8rem;
+  }
+  
+  .testimonials .sub-heading{
+    color: #ededed;
+    font-size: 0.8rem;
+  }
+
 }
 
 /*-------------------- footer responsive---------- */
