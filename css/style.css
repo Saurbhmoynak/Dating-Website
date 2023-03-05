@@ -527,6 +527,7 @@ section {
       url("../img/background.jpeg");
     text-align: center;
     background-size: cover;
+    height: fit-content;
   }
 
   .primary-button {
@@ -603,6 +604,7 @@ section {
   }
 
   .home-text {
+    justify-content: center;
     margin-top: 70px;
     width: 100%;
   }
