@@ -6,6 +6,12 @@ function volet() {
     hamburgerMenu.classList.toggle("open");
 }
 
+let nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+    nav.classList.toggle("shadow", window.scrollY > 0)
+})
+
 hamburgerMenu.addEventListener("click", volet);
 
 

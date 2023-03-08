@@ -1,11 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-/* || General styles */
-/* body {
-  font-family: "Readex Pro", sans-serif;
-  /* height: 100vh; */
-
 
 * {
   padding: 0;
@@ -216,7 +209,6 @@ section {
   font-weight: bold;
   margin-top: 20px;
   z-index: 1;
-
   background: linear-gradient(45deg, #fd2b75, #ff4b2b);
   border: 0;
   border-radius: 20px;
@@ -297,30 +289,30 @@ section {
 
 /* ----------- Why Choose Section ------------*/
 
-.why-choose{
+.why-choose {
   background-image: linear-gradient(90deg, #fd267d, #ff7854);
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
   gap: 1.5rem;
 }
 
-.why-choose img{
+.why-choose img {
   border-bottom: 0.5rem;
-  height:fit-content;
+  height: fit-content;
   width: 100%;
 }
 
-.why-choose-text h2{
+.why-choose-text h2 {
   /* color: rgb(237, 53, 90); */
   color: #ffffff;
   font-size: 2rem;
   font-weight: 700;
-  padding-bottom:20px ;
+  padding-bottom: 20px;
   text-transform: uppercase;
 }
 
-.why-choose-text p{
+.why-choose-text p {
   color: #efefef;
   justify-content: baseline;
   font-size: 1.1rem;
@@ -329,63 +321,64 @@ section {
   margin: 0.5rem 0 1.1rem;
 }
 
-@media(max-width:1300px){
-  .why-choose-text h2{
+@media(max-width:1300px) {
+  .why-choose-text h2 {
     font-size: 1.8rem;
   }
-  
-  .why-choose-text p{
+
+  .why-choose-text p {
     font-size: 1rem;
   }
 }
 
 
-@media(max-width:1100px){
-  .why-choose-text h2{
+@media(max-width:1100px) {
+  .why-choose-text h2 {
     font-size: 1.5rem;
   }
-  
-  .why-choose-text p{
+
+  .why-choose-text p {
     font-size: 0.9rem;
   }
 }
 
-@media(max-width:1050px){
-  .why-choose-text h2{
+@media(max-width:1050px) {
+  .why-choose-text h2 {
     font-size: 1.2rem;
   }
-  
-  .why-choose-text p{
+
+  .why-choose-text p {
     font-size: 0.8rem;
   }
 }
 
-@media(max-width:750px){
-  .why-choose{
+@media(max-width:750px) {
+  .why-choose {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .why-choose img{
+  .why-choose img {
     border-bottom: 0.5rem;
-    height:fit-content;
+    height: fit-content;
     width: 100%;
   }
-  .why-choose-text h2{
+
+  .why-choose-text h2 {
     font-size: 2rem;
   }
-  
-  .why-choose-text p{
+
+  .why-choose-text p {
     font-size: 0.9rem;
   }
 }
 
-@media(max-width:500px){
-  .why-choose-text h2{
+@media(max-width:500px) {
+  .why-choose-text h2 {
     font-size: 1rem;
   }
-  
-  .why-choose-text p{
+
+  .why-choose-text p {
     font-size: 0.75rem;
   }
 }
@@ -393,24 +386,24 @@ section {
 /*------------------ find-love section-------------- */
 
 
-.find-love{
+.find-love {
   padding: 100px;
 }
 
-.find-love-content{
+.find-love-content {
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit,1fr);
+  grid-template-columns: repeat(auto-fit, 1fr);
   justify-content: center;
   align-items: center;
 }
 
-.find-love-content h1{
+.find-love-content h1 {
   font-size: 2.2rem;
   padding-bottom: 15px;
 }
 
-.find-love-content a{
+.find-love-content a {
   background: linear-gradient(45deg, #fd2b75, #ff4b2b);
   border: 0;
   border-radius: 10px;
@@ -422,29 +415,30 @@ section {
   margin: auto;
 }
 
-@media(max-width:650px){
-  .find-love{
+@media(max-width:650px) {
+  .find-love {
     padding: 80px;
   }
-  .find-love-content h1{
+
+  .find-love-content h1 {
     font-size: 1.5rem;
   }
-  
-  .find-love-content a{
+
+  .find-love-content a {
     font-size: 15px;
   }
 }
 
-@media(max-width:500px){
-  .find-love{
+@media(max-width:500px) {
+  .find-love {
     padding: 50px;
   }
 
-  .find-love-content h1{
+  .find-love-content h1 {
     font-size: 1rem;
   }
-  
-  .find-love-content a{
+
+  .find-love-content a {
     font-size: 8px;
   }
 }
