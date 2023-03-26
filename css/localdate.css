@@ -1,0 +1,297 @@
+
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+  .btn {
+    
+    font-size: 10px;
+    margin: 13px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(32, 28, 28);
+  }
+
+  .background{
+    color: white;
+    /* font-size: 3px; */
+    
+    height: 100vh;
+    background-image:linear-gradient(48deg,rgba(15, 14, 14, 0.6) 50%,transparent 50%), url("https://images.wallpaperscraft.com/image/single/couple_mountains_travel_125490_1280x800.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* background-position: center;  */
+  }
+  .background .back{
+
+    height: 100vh;
+  }
+  .background .back img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .overlay{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(240, 236, 15);
+    margin: 1px 10px;
+    padding: 91px 147px;
+    flex-direction: column;
+  }
+  .overlay h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 1px 1px;
+  padding: 1px 1px;
+  }
+  .background p{
+    width: 549px;
+    font-size: 16px;
+    color: rgb(243, 238, 238);
+  }
+  hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 2px 2px;
+    padding: 10px 220px;
+    width: 100px;
+  }
+
+  .pageLinks ul{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    padding: 6px 2px;
+    margin: 10px 18px;
+  }
+  .pageLinks ul a{
+    font-size: 16px;
+    color: white;
+     padding: 0px 1px;
+    margin: 10px 0px;
+    /* text-align: block; */
+    line-height: 40px;
+  }
+
+  
+  .find-container{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .text1{
+    margin: 10;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    color: #579BB1;
+    font-size: 250%
+  }
+
+  .text2{
+    margin: 15px;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    font-size:30px;
+    font-family: Lato,arial,helvetica,sans-serif;
+    
+    
+  }
+  
+  .bic{
+    padding: 4%;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  .topnav {
+    padding-left: 42%;
+    margin: auto;
+    justify-content: center;
+    
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    border: 10px black;
+    position: absolute;
+    font-size: 17px;
+   display: flex;
+   padding-top: 0;
+   justify-content: center;
+   margin-top: 0px;
+   background-color:rgb(220, 220, 220)
+  }
+ .content{
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 5%;
+  
+ }
+
+ .content p{
+  line-height: 1.5;
+ }
+
+ .content ol li{
+  line-height: 1.8;
+ }
+
+
+.abc {
+  padding: 20px 5%;
+  display: flex;
+}
+
+
+
+ h2 {
+  font-size: 2.25rem;
+  font-family: var(--font-title);
+  color: var(--white);
+  line-height: 1.1;
+}
+
+p {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.sec1{
+  display: flex;
+  padding: 0 35px;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #fd2b75,#ff4b2b);
+}
+.wrapper{
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 3px solid #f7f5f4;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 2px solid #fdfcfb;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(13, 13, 13);
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+
+
+
+   

@@ -534,10 +534,6 @@ footer p{
         padding: 10px 0;
     }
 
-    section{
-        padding: 2rem 0 !important;
-    }
-
     .header-content{
         margin-top: 3rem !important;
     }
@@ -644,34 +640,6 @@ footer p{
     }
 }
 
-/* Footer Media Query */
-@media (max-width: 991px){
-    footer{
-        padding: 40px;
-        font-size: 20px;
-    }
-
-    footer .footer-container{
-        flex-direction: column;
-    }
-
-    footer .footer-container .sec{
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-
-    footer .footer-container .sec.aboutus{
-        width: 100% !important;
-    }
-
-    footer .footer-container .quicklinks{
-        width: 100%;
-    }
-
-    footer .footer-container .contactBx{
-        width: 100%;
-    }
-}
 
 
 
